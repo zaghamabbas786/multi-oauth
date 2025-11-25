@@ -1,0 +1,51 @@
+# Source files (users don't need TypeScript source)
+src/
+tsconfig.json
+
+# Examples (users can see these on GitHub)
+examples/
+
+# Internal development documentation
+CONTRIBUTING.md
+QUICK_START.md
+TESTING.md
+PUBLISH_CHECKLIST.md
+PROJECT_SUMMARY.md
+requiremend.md
+
+# Development files
+.git/
+.gitignore
+node_modules/
+*.log
+npm-debug.log*
+*.tgz
+
+# IDE files
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+
+# Test files
+test/
+tests/
+*.test.ts
+*.test.js
+*.spec.ts
+*.spec.js
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+.circleci/
+
+# Only include in npm package:
+# - dist/ (compiled code)
+# - README.md (user documentation)
+# - LICENSE (legal)
+# - CHANGELOG.md (version history)
+# - package.json (package info)
+

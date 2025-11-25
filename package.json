@@ -1,0 +1,59 @@
+{
+  "name": "multi-oauth",
+  "version": "1.0.0",
+  "description": "The simplest multi-provider OAuth library for Node.js - supports Google, Facebook, GitHub, Twitter, LinkedIn, Apple, and Microsoft",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "watch": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "oauth",
+    "oauth2",
+    "authentication",
+    "login",
+    "google-oauth",
+    "facebook-oauth",
+    "github-oauth",
+    "twitter-oauth",
+    "linkedin-oauth",
+    "apple-login",
+    "microsoft-oauth",
+    "social-login",
+    "multi-provider",
+    "auth",
+    "sso",
+    "single-sign-on",
+    "easy",
+    "simple",
+    "typescript",
+    "nodejs"
+  ],
+  "author": "Zagham Abbas (zaghama96@gmail.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zaghamabbas786/multi-oauth"
+  },
+  "bugs": {
+    "url": "https://github.com/zaghamabbas786/multi-oauth/issues"
+  },
+  "homepage": "https://github.com/zaghamabbas786/multi-oauth#readme",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0"
+  },
+  "dependencies": {}
+}
+

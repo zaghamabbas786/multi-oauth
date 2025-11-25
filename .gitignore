@@ -1,0 +1,19 @@
+node_modules/
+dist/
+.env
+*.log
+.DS_Store
+.vscode/
+.idea/
+coverage/
+*.tgz
+test-app/
+
+# Internal documentation (not needed in repo)
+CONTRIBUTING.md
+PROJECT_SUMMARY.md
+PUBLISH_CHECKLIST.md
+QUICK_START.md
+TESTING.md
+requiremend.md
+
