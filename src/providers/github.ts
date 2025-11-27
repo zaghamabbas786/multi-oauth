@@ -28,7 +28,7 @@ export class GitHubOAuthProvider extends BaseOAuthProvider {
       headers: {
         'Authorization': `Bearer ${accessToken}`,
         'Accept': 'application/json',
-        'User-Agent': 'easy-oauth'
+        'User-Agent': 'multi-oauth'
       }
     });
 
@@ -45,7 +45,7 @@ export class GitHubOAuthProvider extends BaseOAuthProvider {
         headers: {
           'Authorization': `Bearer ${accessToken}`,
           'Accept': 'application/json',
-          'User-Agent': 'easy-oauth'
+          'User-Agent': 'multi-oauth'
         }
       });
 

@@ -1,6 +1,6 @@
 import express from 'express';
 import session from 'express-session';
-import auth from 'easy-oauth';
+import auth from 'multi-oauth';
 import dotenv from 'dotenv';
 
 // Load environment variables

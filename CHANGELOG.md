@@ -85,5 +85,5 @@ Future versions may include:
 
 ---
 
-**Full Changelog**: https://github.com/yourusername/easy-oauth/commits/v1.0.0
+**Full Changelog**: https://github.com/zaghamabbas786/multi-oauth/commits/v1.0.0
 

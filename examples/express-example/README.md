@@ -1,6 +1,6 @@
-# Easy OAuth - Express.js Example
+# Multi-OAuth - Express.js Example
 
-This is a complete example of using **easy-oauth** with Express.js for multi-provider authentication.
+This is a complete example of using **multi-oauth** with Express.js for multi-provider authentication.
 
 ## Features
 

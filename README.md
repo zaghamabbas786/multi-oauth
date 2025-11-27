@@ -1,6 +1,6 @@
 # 🔐 Easy OAuth - The Simplest Multi-Provider OAuth Library for Node.js
 
-[![npm version](https://img.shields.io/npm/v/easy-oauth.svg)](https://www.npmjs.com/package/easy-oauth)
+[![npm version](https://img.shields.io/npm/v/multi-oauth.svg)](https://www.npmjs.com/package/multi-oauth)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)](https://www.typescriptlang.org/)
 
@@ -21,15 +21,15 @@ Perfect for any Node.js backend framework - Express, Fastify, Koa, Hono, Next.js
 ## 📦 Installation
 
 ```bash
-npm install easy-oauth
+npm install multi-oauth
 ```
 
 ```bash
-yarn add easy-oauth
+yarn add multi-oauth
 ```
 
 ```bash
-pnpm add easy-oauth
+pnpm add multi-oauth
 ```
 
 ## 🚀 Quick Start
@@ -37,7 +37,7 @@ pnpm add easy-oauth
 ### TypeScript Example
 
 ```typescript
-import auth from 'easy-oauth';
+import auth from 'multi-oauth';
 import express from 'express';
 
 const app = express();
@@ -79,7 +79,7 @@ app.listen(3000, () => console.log('Server running on port 3000'));
 ### JavaScript (CommonJS) Example
 
 ```javascript
-const auth = require('easy-oauth').default;
+const auth = require('multi-oauth').default;
 const express = require('express');
 
 const app = express();
@@ -294,7 +294,7 @@ microsoft: {
 ### Express.js
 
 ```typescript
-import auth from 'easy-oauth';
+import auth from 'multi-oauth';
 import express from 'express';
 
 const app = express();
@@ -332,7 +332,7 @@ app.listen(3000);
 ### Fastify
 
 ```typescript
-import auth from 'easy-oauth';
+import auth from 'multi-oauth';
 import fastify from 'fastify';
 
 const app = fastify();
@@ -363,7 +363,7 @@ app.get('/callback/:provider', async (request, reply) => {
 ### Koa
 
 ```typescript
-import auth from 'easy-oauth';
+import auth from 'multi-oauth';
 import Koa from 'koa';
 import Router from 'koa-router';
 
@@ -396,7 +396,7 @@ app.use(router.routes());
 
 ```typescript
 // pages/api/login/[provider].ts
-import auth from 'easy-oauth';
+import auth from 'multi-oauth';
 import type { NextApiRequest, NextApiResponse } from 'next';
 
 auth.configure({
@@ -426,7 +426,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 ### Hono (Edge Runtime)
 
 ```typescript
-import auth from 'easy-oauth';
+import auth from 'multi-oauth';
 import { Hono } from 'hono';
 
 const app = new Hono();
@@ -511,7 +511,7 @@ APPLE_CLIENT_SECRET=xxx
 You can create custom OAuth providers by extending the `BaseOAuthProvider`:
 
 ```typescript
-import { BaseOAuthProvider, OAuthUser } from 'easy-oauth';
+import { BaseOAuthProvider, OAuthUser } from 'multi-oauth';
 
 class CustomOAuthProvider extends BaseOAuthProvider {
   getName(): string {
@@ -559,7 +559,7 @@ import type {
   ProviderName,
   OAuthRequest,
   TokenResponse
-} from 'easy-oauth';
+} from 'multi-oauth';
 
 // Use types in your application
 function saveUser(user: OAuthUser) {
@@ -624,7 +624,7 @@ app.get('/callback/:provider', async (req, res) => {
 Yes! The library is written in TypeScript but compiles to JavaScript. You can use it in any Node.js project:
 
 ```javascript
-const auth = require('easy-oauth').default;
+const auth = require('multi-oauth').default;
 // Use normally
 ```
 
@@ -657,7 +657,7 @@ Contributions are welcome! Please follow these steps:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/easy-oauth.git
+git clone https://github.com/zaghamabbas786/multi-oauth.git
 
 # Install dependencies
 npm install
@@ -685,9 +685,8 @@ If you find Easy OAuth useful, please give us a star on GitHub! ⭐
 
 ## 📞 Support
 
-- 📫 Email: support@easy-oauth.com
-- 💬 Discord: [Join our community](https://discord.gg/easy-oauth)
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/easy-oauth/issues)
+- 📫 Email: zaghama96@gmail.com
+- 🐛 Issues: [GitHub Issues](https://github.com/zaghamabbas786/multi-oauth/issues)
 
 ---
 
